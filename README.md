@@ -29,7 +29,7 @@ Note: When building for first time, docker may issue a warning for web service n
 * Once Server starts the App can be accessed from
 http://localhost:8000/
 * The two endpoints hosted are
-http://localhost:8000/validateFiniteEntity
+http://localhost:8000/validateFiniteEntity and
 http://localhost:8000/validateNumEntity
 
 * Image size: 977MB
