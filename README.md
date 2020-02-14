@@ -7,7 +7,7 @@ This project intendes to validates intention behind the utterance. It's a basic 
   - validate_num_entity: https://localhost:8000/validateNumEntity
   - Slot_Validation: https://localhost:8000/slotValidate
 
-Futher information can found in be _problem statetment.txt_
+Futher information can be found in _problem statetment.txt_
 
 # Assumptions
 * If pick_first is present, it will simply overide the behaviour of support_multiple key and first value will be picked regardless the entity value is valid or not
