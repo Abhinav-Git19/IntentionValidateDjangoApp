@@ -28,9 +28,7 @@ docker-compose up
 Note: When building for first time, docker may issue a warning for web service not being present for which it executes build command internally. You don't need to worry about that
 * Once Server starts the App can be accessed from
 http://localhost:8000/
-* The two endpoints hosted are
-http://localhost:8000/validateFiniteEntity
-http://localhost:8000/validateNumEntity
+* The two endpoints hosted are http://localhost:8000/validateFiniteEntity and http://localhost:8000/validateNumEntity and http://localhost:8000/slotValidate
 
 * Image size: 977MB
 
