@@ -1,27 +1,48 @@
 {
-  "invalid_trigger": "invalid_ids_stated",
-  "key": "ids_stated",
-  "name": "govt_id",
-  "reuse": true,
-  "pick_first": true,
-  "supported_values": [
-    "pan",
-    "aadhaar",
-    "college",
-    "corporate",
-    "dl",
-    "voter",
-    "passport",
-    "local"
-  ],
-  "type": [
-    "id"
-  ],
-  "validation_parser": "finite_values_entity",
-  "values": [
-    {
-      "entity_type": "id",
-      "value": "college"
-    }
-  ]
+  "intents_info": {
+    "name": "room_booking_eligibility",
+    "slots": [
+      {
+        "invalid_trigger": "invalid_ids_stated",
+        "key": "ids_stated",
+        "name": "govt_id",
+        "reuse": true,
+        "support_multiple": true,
+        "supported_values": [
+          "pan",
+          "aadhaar",
+          "college",
+          "corporate",
+          "dl",
+          "voter",
+          "passport",
+          "local"
+        ],
+        "type": [
+          "id"
+        ],
+        "validation_parser": "finite_values_entity",
+        "values": []
+      },
+      {
+        "invalid_trigger": "invalid_age",
+        "key": "age_stated",
+        "name": "age",
+        "reuse": true,
+        "pick_first": true,
+        "type": [
+          "number"
+        ],
+        "validation_parser": "numeric_values_entity",
+        "constraint": "x>=18 and x<=30",
+        "var_name": "x",
+        "values": [
+          {
+            "entity_type": "number",
+            "value": 18
+          }
+        ]
+      }
+    ]
+  }
 }

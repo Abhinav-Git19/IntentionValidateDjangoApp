@@ -49,7 +49,7 @@ def validate_numeric_entity(request):
     return response
 
 @api_view(['GET','POST'])
-def slots_validator2(request):
+def complete_slots_validator(request):
     if request.method == 'GET':
         return Response({"message": "Your slot validator"})
 

@@ -23,5 +23,5 @@ urlpatterns = [
     path('', views.welcome),
     path('validateFiniteEntity', views.validate_finite_values_entity),
     path('validateNumEntity', views.validate_numeric_entity),
-    path('slotValidate',views.slots_validator2)
+    path('slotValidate',views.complete_slots_validator)
 ]
