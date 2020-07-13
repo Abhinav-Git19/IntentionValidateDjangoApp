@@ -1,3 +1,12 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Problem Context](#problem-context)
+- [Problem Statement](#problem-statement)
+- [Intention validator](#intention-validator)
+- [Assumptions](#assumptions)
+- [Instructions](#instructions)
+- [Run Automated Tests](#run-automated-tests)
+
 # Problem Context
 Every statement user speaks or dialects could be considered as an utterance . Inside each utterance, a user can have an intent behind it. Each of these intentions is modifiable via entity . E.g-  \
 "show me yesterday’s financial news" --> utterance \
