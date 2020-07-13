@@ -30,9 +30,9 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="VernacularAssignment" is-module-sdk="true">
+      <console-settings module-name="EntityValidatorApp" is-module-sdk="true">
         <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="VernacularAssignment" />
+        <option name="myModuleName" value="EntityValidatorApp" />
       </console-settings>
     </option>
   </component>
@@ -44,7 +44,7 @@
   </component>
   <component name="RunManager">
     <configuration name="MyConf" type="PythonConfigurationType" factoryName="Python">
-      <module name="VernacularAssignment" />
+      <module name="EntityValidatorApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>

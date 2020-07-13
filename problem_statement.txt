@@ -8,12 +8,9 @@ Entity/Slot: An entity modifies an intent. For example, if a user says “I am 2
 
 NOTE: An intent may have multiple slots in it.
 
-Assignment:
-
 Create a Django app which has 2 REST APIs.
 This Django app must then be runnable via Docker.
 
-The following are the 4 main steps in this assignment:
 
 1. POST API to validate a slot with a finite set of values.
 
@@ -288,16 +285,3 @@ This function's result should be wrapped by the Django view and the POST API's r
 	"trigger": <trigger value>,
 	"parameters": <params dict from func>
 }
-
-3. Creating a Dockerfile
-
-Once the django app is complete. Create a dockerfile which will be used to build a docker image where your django app will reside.
-Try to ensure that the dockerfile is as small as possible.
-
-Please also share the command required to start your docker container and run your django app once the docker image is built.
-
-
-4. Hosting the code on Github and sharing the same
-
-Please host the code written by you in a private github repo and share the same.
-Please state the docker image size in the README of the repo.
