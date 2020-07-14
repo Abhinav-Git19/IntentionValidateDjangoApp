@@ -45,5 +45,5 @@ You can run the already pre-built tests for the apis to test sanity functions as
 ```
 Or
 ```
-python3 test
+python3 manage.py test
 ```
